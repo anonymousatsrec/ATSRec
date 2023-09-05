@@ -1,5 +1,6 @@
-## Code of ATSRec, Run following command to play with the code:
+## Code of ATSRec
 
+Run following command to play with the code in src:
 For the base model GRU4Rec, NARM, SASRec and BERT4Rec without adversarial training
 Such as SASRec in dataset Toys_and_Games:
 ```

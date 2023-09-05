@@ -1,6 +1,6 @@
 # Code of ATSRec
 
-##Run following command to play with the code in src:
+Run following command to play with the code in src:
 ##For the base model GRU4Rec, NARM, SASRec and BERT4Rec without adversarial training, Such as SASRec in dataset Toys_and_Games:
 ```
 python main.py --gpu_id=0 --data_name=Toys_and_Games --base_model_name=SASRec --epochs=300 --with_AT=No 

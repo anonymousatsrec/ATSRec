@@ -1,4 +1,4 @@
-# Code of ATSRec
+# Code of ATSRec (Adversarial Training for Representation Degeneration Problem in Sequential Recommendation)
 
 Run following command to play with the code in src:
 

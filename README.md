@@ -1,8 +1,7 @@
-## Code of ATSRec
+# Code of ATSRec
 
-Run following command to play with the code in src:
-For the base model GRU4Rec, NARM, SASRec and BERT4Rec without adversarial training
-Such as SASRec in dataset Toys_and_Games:
+##Run following command to play with the code in src:
+##For the base model GRU4Rec, NARM, SASRec and BERT4Rec without adversarial training, Such as SASRec in dataset Toys_and_Games:
 ```
 python main.py --gpu_id=0 --data_name=Toys_and_Games --base_model_name=SASRec --epochs=300 --with_AT=No 
 ```
@@ -10,8 +9,8 @@ python main.py --gpu_id=0 --data_name=Toys_and_Games --base_model_name=SASRec --
 'HIT@5': '0.0479', 'HIT@10': '0.0698', 'HIT@20': '0.0970', 'NDCG@5': '0.0334', 'NDCG@10': '0.0405', 'NDCG@20': '0.0473'
 
 
-For our ATSRec, the base model with adversarial training
-Such as SASRec in dataset Toys_and_Games:
+##For our ATSRec, the base model with adversarial training
+##Such as SASRec in dataset Toys_and_Games:
 ```
 python main.py --gpu_id=0 --data_name=Toys_and_Games --base_model_name=SASRec --epochs=300 --with_AT=Yes --attack_train=pgd --adv_step=5 --epsilon=1.0 --eta=0.7
 ```

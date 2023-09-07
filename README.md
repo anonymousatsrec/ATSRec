@@ -1,6 +1,6 @@
 # Code of ATSRec (Adversarial Training for Representation Degeneration Problem in Sequential Recommendation)
 
-Run following command to play with the code in src:
+Run following command to play with the code in scr:
 
 For the base model GRU4Rec, NARM, SASRec and BERT4Rec without adversarial training, Such as SASRec in dataset Toys_and_Games:
 ```

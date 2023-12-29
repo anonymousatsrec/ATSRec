@@ -1,4 +1,4 @@
-# Code of ATSRec (Adversarial Training for Representation Degeneration Problem in Sequential Recommendation)
+# Code of ATSRec (ENHANCING SEQUENTIAL RECOMMENDATION MODELING VIA ADVERSARIAL TRAINING)
 
 Run following command to play with the code in scr:
 
